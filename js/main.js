@@ -72,7 +72,27 @@ console.log(parseInt('hello', 10));
 
 
 
+/*比較演算子*/
 
+'use strict'
+
+const price3 = 1200;
+
+
+console.log(price3 > 1000);
+
+console.log(price3 < 1000);
+
+
+console.log(price3 >= 1000);
+
+
+console.log(price3 <= 1000);
+
+console.log(price3 === 1000);
+
+
+console.log(price3 !== 1000);
 
 
 
