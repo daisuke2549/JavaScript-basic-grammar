@@ -97,17 +97,69 @@ console.log(price3 !== 1000);
 
 /*条件分岐*/
 
-'use strict';
+// 'use strict';
 
-const score = 85;
+// const score = 85;
 
-if (score >= 80) {
-  console.log('Great!');
-} else {
-  console.log('OK...!');
+// if (score >= 80) {
+//   console.log('Great!');
+// } else {
+//   console.log('OK...!');
+// }
+
+// score >= 80 ? console.log('Great!') : console.log('OK...!');
+
+
+/*論理演算子*/
+
+'use strict'
+
+const score = 60;
+const name = 'suzuki';
+
+
+// if (score > 50 ){
+//     if(name === 'sasaki'){
+//         console.log('your score is very good');
+//     }else{
+//         console.log('your name is not correct');
+//     }
+// }
+
+
+
+// && かつ(AND)
+// || または(OR)
+// !　〜ではない(NOT)
+
+if(score >= 50 && name === 'sasaki'){
+    console.log('your score is pretty good')
+}else{
+    console.log('your name is incorrect');
 }
 
-score >= 80 ? console.log('Great!') : console.log('OK...!');
+
+
+
+/*条件分岐(switch文)*/
+
+const signal = 'yellow';
+
+switch (signal) {
+    case 'red':
+      console.log('Stop!');
+      break;
+    case 'yellow':
+      console.log('Caution!');
+      break;
+    case 'blue':
+    case 'green':
+      console.log('Go!');
+      break;
+    default:
+      console.log('Wrong signal!');
+      break;
+  }
 
 
 
