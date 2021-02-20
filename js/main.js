@@ -65,7 +65,10 @@ number2 *= 30;
 console.log(number2);
 
 
+console.log('5' + 3);
+console.log(parseInt('5', 2) + 3);
 
+console.log(parseInt('hello', 10));
 
 
 
