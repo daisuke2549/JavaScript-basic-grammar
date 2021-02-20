@@ -183,16 +183,104 @@
 //   console.log('${hp} HP left!');
 // }
 
-
-
+// 
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 4) {
+//      continue;
+//    }
+//   // if (i === 4) {
+//   //   break;
+//   // }
+//   console.log(i);
+// }
 
 
 
 
 /*関数実行*/
-/*関数実行*/
-/*関数実行*/
+
+// 'use strict';
+
+// function showAd(message = 'Ad') { // 仮引数
+//   console.log('----------');
+//   console.log(`--- ${message} ---`);
+//   console.log('----------');
+// }
+
+// showAd('Header Ad'); // 実引数
+// console.log('Tom is great!');
+// console.log('Bob is great!');
+// // showAd('Ad');
+// showAd();
+// console.log('Steve is great!');
+// console.log('Richard is great!');
+// showAd('Footer Ad');
+
+
+
+// function sum(a,b,c)
+// // {　
+// //   return a+b+c;
+// // }
+
+// const sum = function(a,b,c)
+// {　
+//   return a+b+c;
+// };
+
+
+// const total = sum(1,2,10) + sum(8,4,10);
+
+// console.log(total);
+
+
+
+// /*アロー関数*/
+
+// const sum = (a,b,c) =>   a+b+c;
+
+
+
+// const total = sum(1,2,10) + sum(8,4,10);
+
+// console.log(total);
+
+
+
+// // const double = function(a){
+// //   return a * 2;
+// // }
+
+
+// const double = (a) =>   a * 2;
+// console.log(double(12));
+
+
+
+/*スコープ関数*/
+
+
+// 'use strict';
+
+// const x = 2;
+
+// function f() {
+//   // const x = 1;
+//   console.log(x);
+// }
+
+// f();
+// console.log(x);
+
+
 
 /*関数実行*/
+
+'use strict';
+
+{
+const x = 100;
+console.log(x);
+}
 
 
