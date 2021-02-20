@@ -95,9 +95,19 @@ console.log(price3 === 1000);
 console.log(price3 !== 1000);
 
 
+/*条件分岐*/
 
+'use strict';
 
+const score = 85;
 
+if (score >= 80) {
+  console.log('Great!');
+} else {
+  console.log('OK...!');
+}
+
+score >= 80 ? console.log('Great!') : console.log('OK...!');
 
 
 
